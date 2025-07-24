@@ -14,4 +14,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-CMD gunicorn app:app & python3 main.py
+CMD ["python", "app.py"]
