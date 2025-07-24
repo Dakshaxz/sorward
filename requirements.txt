@@ -1,3 +1,4 @@
 Flask
 gunicorn
 realesrgan-ncnn-py
+pyrogram
